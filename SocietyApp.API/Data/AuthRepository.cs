@@ -36,7 +36,7 @@ namespace SocietyApp.API.Data
             var user = await _context.Users.FirstOrDefaultAsync(d => d.Username == username);
             if (user == null)
                 return null;
-            if (!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
+            if (VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
             {
                 return user;
             }

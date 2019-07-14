@@ -4,8 +4,15 @@
    // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
    "version": "0.2.0",
    "configurations": [
+       {
+           "name": ".NET Core Attach",
+           "type": "coreclr",
+           "request": "attach",
+           "processId": "${command:pickProcess}",
+           
+       },       
         {
-            "name": ".NET Core Launch (web)",
+            "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -13,22 +20,11 @@
             "program": "${workspaceFolder}/SocietyApp.API/bin/Debug/netcoreapp2.1/SocietyApp.API.dll",
             "args": [],
             "cwd": "${workspaceFolder}/SocietyApp.API",
+            "console": "internalConsole",
             "stopAtEntry": false,
-            "launchBrowser": {
-                "enabled": true
-            },
-            "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "sourceFileMap": {
-                "/Views": "${workspaceFolder}/Views"
-            }
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach",
-            "processId": "${command:pickProcess}"
+            "internalConsoleOptions": "openOnSessionStart" 
+           
         }
+        
     ]
 }
