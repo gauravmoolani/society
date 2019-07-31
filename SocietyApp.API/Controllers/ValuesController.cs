@@ -22,7 +22,7 @@ namespace SocietyApp.API.Controllers
         }
         
         // GET api/values
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
