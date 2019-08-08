@@ -2,39 +2,21 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SocietyApp.API.Data;
 
 namespace SocietyApp.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20190803090522_ExtendedUserClass")]
+    partial class ExtendedUserClass
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.1.8-servicing-32085");
-
-            modelBuilder.Entity("SocietyApp.API.Models.Noticeboard", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<bool>("Approved");
-
-                    b.Property<DateTime>("ExpiryDate");
-
-                    b.Property<DateTime>("IssueDate");
-
-                    b.Property<string>("NoticeInformation");
-
-                    b.Property<string>("Title");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Noticeboards");
-                });
 
             modelBuilder.Entity("SocietyApp.API.Models.Photo", b =>
                 {
@@ -54,24 +36,6 @@ namespace SocietyApp.API.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Photos");
-                });
-
-            modelBuilder.Entity("SocietyApp.API.Models.SocietyEvent", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int>("Contribution");
-
-                    b.Property<string>("Description");
-
-                    b.Property<DateTime>("EventDate");
-
-                    b.Property<string>("EventName");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("SocietyEvents");
                 });
 
             modelBuilder.Entity("SocietyApp.API.Models.User", b =>

@@ -17,6 +17,11 @@ namespace SocietyApp.API.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
+                name: "Firstname",
+                table: "Users",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
                 name: "FlatNo",
                 table: "Users",
                 nullable: true);
@@ -33,8 +38,13 @@ namespace SocietyApp.API.Migrations
                 nullable: false,
                 defaultValue: false);
 
+            migrationBuilder.AddColumn<string>(
+                name: "Lastname",
+                table: "Users",
+                nullable: true);
+
             migrationBuilder.AddColumn<int>(
-                name: "UserTypes",
+                name: "UserType",
                 table: "Users",
                 nullable: false,
                 defaultValue: 0);
@@ -81,6 +91,10 @@ namespace SocietyApp.API.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
+                name: "Firstname",
+                table: "Users");
+
+            migrationBuilder.DropColumn(
                 name: "FlatNo",
                 table: "Users");
 
@@ -93,7 +107,11 @@ namespace SocietyApp.API.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "UserTypes",
+                name: "Lastname",
+                table: "Users");
+
+            migrationBuilder.DropColumn(
+                name: "UserType",
                 table: "Users");
         }
     }

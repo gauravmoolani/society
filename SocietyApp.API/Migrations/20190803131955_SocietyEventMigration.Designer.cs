@@ -9,8 +9,8 @@ using SocietyApp.API.Data;
 namespace SocietyApp.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20190728130236_ExtendedUserClass")]
-    partial class ExtendedUserClass
+    [Migration("20190803131955_SocietyEventMigration")]
+    partial class SocietyEventMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,6 +38,24 @@ namespace SocietyApp.API.Migrations
                     b.ToTable("Photos");
                 });
 
+            modelBuilder.Entity("SocietyApp.API.Models.SocietyEvent", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("Contribution");
+
+                    b.Property<string>("Description");
+
+                    b.Property<DateTime>("EventDate");
+
+                    b.Property<string>("EventName");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SocietyEvents");
+                });
+
             modelBuilder.Entity("SocietyApp.API.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -47,17 +65,21 @@ namespace SocietyApp.API.Migrations
 
                     b.Property<string>("EmailAddress");
 
+                    b.Property<string>("Firstname");
+
                     b.Property<string>("FlatNo");
 
                     b.Property<int>("Gender");
 
                     b.Property<bool>("IsActive");
 
+                    b.Property<string>("Lastname");
+
                     b.Property<byte[]>("PasswordHash");
 
                     b.Property<byte[]>("PasswordSalt");
 
-                    b.Property<int>("UserTypes");
+                    b.Property<int>("UserType");
 
                     b.Property<string>("Username");
 

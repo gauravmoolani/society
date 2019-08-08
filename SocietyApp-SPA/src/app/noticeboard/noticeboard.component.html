@@ -1,3 +1,14 @@
-<p>
-  noticeboard works!
-</p>
+<div class="container mt-3">
+    <div
+      *ngFor="let noticeboard of noticeboards"   >
+      <div class="card mb-3" >
+        <div class="card-body">
+          <h2 class="display-4">{{ noticeboard.title }}</h2>
+          <p class="lead">{{ noticeboard.noticeInformation }}</p>
+          <hr class="my-4" />        
+          <p>Date {{ noticeboard.issueDate | date }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -39,10 +39,12 @@ namespace SocietyApp.API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
             .AddJsonOptions(opt => { opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore; });
             services.AddCors();
-            services.AddAutoMapper();            
+            services.AddAutoMapper();
             services.AddTransient<Seed>();
             services.AddScoped<IAuthRepository, AuthRepository>();
+             services.AddScoped<INoticeboardRepository, NoticeboardRepository>();
             services.AddScoped<ISocietyRepository, SocietyRepository>();
+            services.AddScoped<ISocietyEventRepository, SocietyEventRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             {
                 options.TokenValidationParameters = new TokenValidationParameters
@@ -82,6 +84,8 @@ namespace SocietyApp.API
 
             // app.UseHttpsRedirection();
             //seeder.SeedUsers();
+            //seeder.SeedEvents();
+            // seeder.SeedNoticeboards();
             app.UseCors(f => f.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
             app.UseMvc();

@@ -9,5 +9,7 @@ namespace SocietyApp.API.Data
         public DbSet<Value> Values{get;set;}
         public DbSet<User> Users{get;set;}
         public DbSet<Photo> Photos{get;set;}
+        public DbSet<SocietyEvent> SocietyEvents{get;set;}
+         public DbSet<Noticeboard> Noticeboards{get;set;}
     }
 }

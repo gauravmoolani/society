@@ -17,8 +17,15 @@ namespace SocietyApp.API.Helpers
             CreateMap<User, UserForListDto>().ForMember(dest => dest.PhotoUrl, opt =>
             {
                 opt.MapFrom(g => g.Photos.FirstOrDefault(h => h.IsMain).Url);
+
+            }).ForMember(dest => dest.UserType, opt =>
+            {
+                opt.MapFrom(g => g.UserType.ToString());
             });
             CreateMap<Photo, PhotosForDetailedDto>();
+            CreateMap<UserForRegisterDto, User>();
+            CreateMap<SocietyEvent, SocietyEventForListDto>();
+            CreateMap<Noticeboard, NoticeboardForListDto>();
         }
     }
 }

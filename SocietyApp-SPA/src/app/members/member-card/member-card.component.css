@@ -1,0 +1,31 @@
+.card:hover h6 {
+  transform: scale(1.5, 1.5);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  /* opacity: 0.7;*/
+}
+/* .card:hover h6 {
+  transform: scale(1, 1);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+} */
+.card-body {
+  overflow: hidden;
+}
+.member-icons {
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+  right: 0;
+  
+  margin-right: 90%;
+  margin-left: auto;
+  opacity: 0;
+}
+.card-body:hover .member-icons {
+  bottom:-20%;
+  opacity: 1;
+}
+.animate{
+    transition:all 0.3s ease-in-out;
+}

@@ -1,0 +1,14 @@
+<div class="container mt-5">
+  <div
+    *ngFor="let societyevent of societyevents" >
+    <div class="card mb-3" >
+      <div class="card-body">
+        <h1 class="display-4">{{ societyevent.eventName }}</h1>
+        <p class="lead">{{ societyevent.description }}</p>
+        <hr class="my-4" />
+        <p>Contribution {{ societyevent.contribution | currency:'INR' }}</p>
+        <p>Date {{ societyevent.eventDate | date }}</p>
+      </div>
+    </div>
+  </div>
+</div>

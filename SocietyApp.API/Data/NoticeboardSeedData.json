@@ -1,0 +1,23 @@
+[
+    {
+      "Title": "Society Rules",
+      "NoticeInformation": "All are informed",
+      "Approved": true,
+      "IssueDate": "Saturday, May 18, 2019 3:41 PM",
+      "ExpiryDate": "Tuesday, July 23, 2019 2:56 PM"
+    },
+    {
+      "Title": "Parking Information",
+      "NoticeInformation": "All are informed",
+      "Approved": true,
+      "IssueDate": "Friday, May 3, 2019 8:01 PM",
+      "ExpiryDate": "Sunday, May 5, 2019 2:54 AM"
+    },
+    {
+      "Title": "Water Tank Cleaning",
+      "NoticeInformation": "All are informed",
+      "Approved": true,
+      "IssueDate": "Saturday, February 16, 2019 12:29 PM",
+      "ExpiryDate": "Saturday, February 9, 2019 12:29 PM"
+    }
+  ]

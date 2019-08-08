@@ -1,326 +1,202 @@
 [
     {
-        "Username": "Lilly",
-        "Gender": 1,
-        "FlatNo": 64,
-        "Password": "password",
-        "UserTypes": 0,
-        "Created": "Fri Mar 24 2017 23:01:09 GMT+0000 (UTC)",
-        "IsActive": true,
-        "ContactNumber": "(944) 557-2603",
-        "EmailAddress": "lilly@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/{{integer(1, 99)}}.jpg",
-                "isMain": true,
-                "description": "Reprehenderit ad culpa nulla eiusmod duis esse tempor consectetur irure ullamco anim eu."
-            }
-        ]
+      "Username": "Bridges",
+      "Firstname": "Banks",
+      "Lastname": "Alford",
+      "Gender": 1,
+      "FlatNo": "A-62",
+      "Password": "password",
+      "UserTypes": 0,
+      "Created": "Fri Jun 09 2017 14:44:03 GMT+0000 (UTC)",
+      "IsActive": false,
+      "ContactNumber": "(944) 541-3571",
+      "EmailAddress": "bridges@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/{{integer(1, 99)}}.jpg",
+          "isMain": true,
+          "description": "Voluptate aliqua nisi minim proident qui et est laboris proident cillum proident sint eiusmod."
+        }
+      ]
     },
     {
-        "Username": "Shelly",
-        "Gender": 1,
-        "FlatNo": 78,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Fri Feb 17 2017 23:46:29 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(989) 513-2976",
-        "EmailAddress": "shelly@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/{{integer(1, 99)}}.jpg",
-                "isMain": true,
-                "description": "Et occaecat sit cillum cillum ex esse consequat commodo dolore ipsum deserunt et sint sit."
-            }
-        ]
+      "Username": "Mathews",
+      "Firstname": "Marsh",
+      "Lastname": "Lynch",
+      "Gender": 1,
+      "FlatNo": "A-68",
+      "Password": "password",
+      "UserTypes": 1,
+      "Created": "Wed Feb 08 2017 12:05:50 GMT+0000 (UTC)",
+      "IsActive": true,
+      "ContactNumber": "(844) 460-2911",
+      "EmailAddress": "mathews@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/{{integer(1, 99)}}.jpg",
+          "isMain": true,
+          "description": "Laborum incididunt id anim Lorem est ullamco excepteur elit minim sit id."
+        }
+      ]
     },
     {
-        "Username": "Dominique",
-        "Gender": 1,
-        "FlatNo": 49,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Sun Feb 12 2017 05:20:16 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(965) 598-2153",
-        "EmailAddress": "dominique@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/26.jpg",
-                "isMain": true,
-                "description": "Mollit aliquip irure cupidatat elit ullamco ipsum enim eiusmod duis labore."
-            }
-        ]
+      "Username": "Bauer",
+      "Firstname": "Schmidt",
+      "Lastname": "Gonzalez",
+      "Gender": 1,
+      "FlatNo": "B-51",
+      "Password": "password",
+      "UserTypes": 1,
+      "Created": "Wed May 17 2017 13:19:42 GMT+0000 (UTC)",
+      "IsActive": false,
+      "ContactNumber": "(908) 442-2718",
+      "EmailAddress": "bauer@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/26.jpg",
+          "isMain": true,
+          "description": "Irure non veniam enim ullamco nostrud aute eu officia ut qui."
+        }
+      ]
     },
     {
-        "Username": "June",
-        "Gender": 1,
-        "FlatNo": 6,
-        "Password": "password",
-        "UserTypes": 0,
-        "Created": "Fri Apr 21 2017 16:22:02 GMT+0000 (UTC)",
-        "IsActive": true,
-        "ContactNumber": "(866) 422-3664",
-        "EmailAddress": "june@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/12.jpg",
-                "isMain": true,
-                "description": "Cillum do minim sit ullamco sint sint aliqua do magna adipisicing aute id."
-            }
-        ]
+      "Username": "Trujillo",
+      "Firstname": "Coffey",
+      "Lastname": "Jackson",
+      "Gender": 1,
+      "FlatNo": "B-84",
+      "Password": "password",
+      "UserTypes": 0,
+      "Created": "Tue Jan 10 2017 03:03:21 GMT+0000 (UTC)",
+      "IsActive": false,
+      "ContactNumber": "(925) 514-3617",
+      "EmailAddress": "trujillo@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/57.jpg",
+          "isMain": true,
+          "description": "Dolor amet ullamco sit consectetur in consequat."
+        }
+      ]
     },
     {
-        "Username": "Molly",
-        "Gender": 1,
-        "FlatNo": 85,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Wed Feb 22 2017 14:38:51 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(936) 589-2779",
-        "EmailAddress": "molly@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/89.jpg",
-                "isMain": true,
-                "description": "Esse voluptate ex esse laboris exercitation esse."
-            }
-        ]
+      "Username": "Dickerson",
+      "Firstname": "Robinson",
+      "Lastname": "Fitzpatrick",
+      "Gender": 1,
+      "FlatNo": "A-49",
+      "Password": "password",
+      "UserTypes": 0,
+      "Created": "Sat Aug 12 2017 09:44:59 GMT+0000 (UTC)",
+      "IsActive": false,
+      "ContactNumber": "(928) 466-2438",
+      "EmailAddress": "dickerson@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/41.jpg",
+          "isMain": true,
+          "description": "Labore aute eu nisi Lorem incididunt anim culpa."
+        }
+      ]
     },
     {
-        "Username": "Lillian",
-        "Gender": 1,
-        "FlatNo": 56,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Thu Mar 09 2017 06:04:21 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(954) 435-3940",
-        "EmailAddress": "lillian@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/18.jpg",
-                "isMain": true,
-                "description": "Ea amet voluptate ut culpa id in sunt reprehenderit nostrud."
-            }
-        ]
+      "Username": "Hill",
+      "Firstname": "Acevedo",
+      "Lastname": "Tillman",
+      "Gender": 1,
+      "FlatNo": "B-11",
+      "Password": "password",
+      "UserTypes": 0,
+      "Created": "Sun Jun 18 2017 06:00:58 GMT+0000 (UTC)",
+      "IsActive": false,
+      "ContactNumber": "(905) 465-3286",
+      "EmailAddress": "hill@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/91.jpg",
+          "isMain": true,
+          "description": "Nostrud excepteur do ipsum nisi dolor veniam veniam minim cillum ex consequat anim id."
+        }
+      ]
     },
     {
-        "Username": "Courtney",
-        "Gender": 1,
-        "FlatNo": 1,
-        "Password": "password",
-        "UserTypes": 0,
-        "Created": "Tue Jun 13 2017 13:39:50 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(970) 425-3049",
-        "EmailAddress": "courtney@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/54.jpg",
-                "isMain": true,
-                "description": "Esse laborum ex sunt pariatur cupidatat incididunt ut excepteur enim duis."
-            }
-        ]
+      "Username": "Franklin",
+      "Firstname": "Alford",
+      "Lastname": "Holland",
+      "Gender": 1,
+      "FlatNo": "A-10",
+      "Password": "password",
+      "UserTypes": 1,
+      "Created": "Tue Mar 07 2017 06:05:32 GMT+0000 (UTC)",
+      "IsActive": false,
+      "ContactNumber": "(845) 569-3749",
+      "EmailAddress": "franklin@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/64.jpg",
+          "isMain": true,
+          "description": "Ut enim elit commodo proident amet labore excepteur eu in ipsum nisi sunt velit."
+        }
+      ]
     },
     {
-        "Username": "Pat",
-        "Gender": 1,
-        "FlatNo": 77,
-        "Password": "password",
-        "UserTypes": 0,
-        "Created": "Sun Apr 23 2017 23:56:34 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(828) 499-3096",
-        "EmailAddress": "pat@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/23.jpg",
-                "isMain": true,
-                "description": "Eiusmod ea sit reprehenderit velit."
-            }
-        ]
+      "Username": "Yang",
+      "Firstname": "Lara",
+      "Lastname": "Oliver",
+      "Gender": 1,
+      "FlatNo": "B-46",
+      "Password": "password",
+      "UserTypes": 0,
+      "Created": "Thu Aug 24 2017 15:40:34 GMT+0000 (UTC)",
+      "IsActive": false,
+      "ContactNumber": "(993) 404-3338",
+      "EmailAddress": "yang@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/64.jpg",
+          "isMain": true,
+          "description": "Eu id sunt adipisicing Lorem aute commodo labore ea dolore."
+        }
+      ]
     },
     {
-        "Username": "Mabel",
-        "Gender": 1,
-        "FlatNo": 37,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Mon May 29 2017 17:57:15 GMT+0000 (UTC)",
-        "IsActive": true,
-        "ContactNumber": "(872) 577-3200",
-        "EmailAddress": "mabel@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/35.jpg",
-                "isMain": true,
-                "description": "Commodo occaecat minim laboris voluptate aute et non irure esse id cillum sint."
-            }
-        ]
+      "Username": "Hawkins",
+      "Firstname": "Ewing",
+      "Lastname": "Lowery",
+      "Gender": 1,
+      "FlatNo": "A-43",
+      "Password": "password",
+      "UserTypes": 0,
+      "Created": "Sun Jan 22 2017 00:43:05 GMT+0000 (UTC)",
+      "IsActive": true,
+      "ContactNumber": "(890) 421-2083",
+      "EmailAddress": "hawkins@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/23.jpg",
+          "isMain": true,
+          "description": "Eiusmod cupidatat proident laboris aute et eiusmod ullamco."
+        }
+      ]
     },
     {
-        "Username": "Deana",
-        "Gender": 1,
-        "FlatNo": 36,
-        "Password": "password",
-        "UserTypes": 0,
-        "Created": "Mon Feb 20 2017 05:24:21 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(842) 517-2576",
-        "EmailAddress": "deana@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/women/92.jpg",
-                "isMain": true,
-                "description": "Ullamco proident minim culpa deserunt incididunt."
-            }
-        ]
-    },
-    {
-        "Username": "Ballard",
-        "Gender": 1,
-        "FlatNo": 60,
-        "Password": "password",
-        "UserTypes": 0,
-        "Created": "Thu Aug 24 2017 15:58:37 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(999) 457-3991",
-        "EmailAddress": "ballard@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/men/{{integer(1, 99)}}.jpg",
-                "isMain": true,
-                "description": "Labore aliquip id esse officia et dolore adipisicing officia."
-            }
-        ]
-    },
-    {
-        "Username": "Roman",
-        "Gender": 1,
-        "FlatNo": 16,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Fri Mar 24 2017 03:25:36 GMT+0000 (UTC)",
-        "IsActive": true,
-        "ContactNumber": "(919) 546-3924",
-        "EmailAddress": "roman@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/men/{{integer(1, 99)}}.jpg",
-                "isMain": true,
-                "description": "Occaecat cillum laborum in adipisicing nisi Lorem non."
-            }
-        ]
-    },
-    {
-        "Username": "Fox",
-        "Gender": 1,
-        "FlatNo": 41,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Tue Aug 08 2017 21:20:58 GMT+0000 (UTC)",
-        "IsActive": true,
-        "ContactNumber": "(845) 406-3641",
-        "EmailAddress": "fox@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/men/91.jpg",
-                "isMain": true,
-                "description": "Consequat irure laborum nisi magna culpa anim consectetur enim occaecat irure consequat sunt."
-            }
-        ]
-    },
-    {
-        "Username": "Mcknight",
-        "Gender": 1,
-        "FlatNo": 29,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Thu Feb 23 2017 05:14:40 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(846) 587-3479",
-        "EmailAddress": "mcknight@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/men/46.jpg",
-                "isMain": true,
-                "description": "Aliqua occaecat tempor cupidatat nostrud laborum dolore aute cupidatat aliquip laborum."
-            }
-        ]
-    },
-    {
-        "Username": "Ortiz",
-        "Gender": 1,
-        "FlatNo": 21,
-        "Password": "password",
-        "UserTypes": 0,
-        "Created": "Wed Feb 15 2017 10:03:28 GMT+0000 (UTC)",
-        "IsActive": true,
-        "ContactNumber": "(897) 520-2275",
-        "EmailAddress": "ortiz@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/men/24.jpg",
-                "isMain": true,
-                "description": "Nisi Lorem enim ex veniam nulla duis."
-            }
-        ]
-    },
-    {
-        "Username": "Mckee",
-        "Gender": 1,
-        "FlatNo": 77,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Wed Jul 05 2017 02:54:41 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(946) 551-2280",
-        "EmailAddress": "mckee@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/men/36.jpg",
-                "isMain": true,
-                "description": "Ad laboris nisi culpa ad amet pariatur."
-            }
-        ]
-    },
-    {
-        "Username": "Robles",
-        "Gender": 1,
-        "FlatNo": 53,
-        "Password": "password",
-        "UserTypes": 0,
-        "Created": "Wed Aug 02 2017 18:50:45 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(821) 479-2657",
-        "EmailAddress": "robles@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/men/70.jpg",
-                "isMain": true,
-                "description": "Proident incididunt aute enim cupidatat quis culpa."
-            }
-        ]
-    },
-    {
-        "Username": "Rosales",
-        "Gender": 1,
-        "FlatNo": 78,
-        "Password": "password",
-        "UserTypes": 1,
-        "Created": "Thu Jul 20 2017 08:20:27 GMT+0000 (UTC)",
-        "IsActive": false,
-        "ContactNumber": "(965) 547-2460",
-        "EmailAddress": "rosales@gmail.com",
-        "Photos": [
-            {
-                "url": "https://randomuser.me/api/portraits/men/51.jpg",
-                "isMain": true,
-                "description": "Do ullamco minim exercitation mollit cupidatat."
-            }
-        ]
+      "Username": "Watson",
+      "Firstname": "Chaney",
+      "Lastname": "Salazar",
+      "Gender": 1,
+      "FlatNo": "A-23",
+      "Password": "password",
+      "UserTypes": 0,
+      "Created": "Thu Jun 22 2017 01:23:03 GMT+0000 (UTC)",
+      "IsActive": true,
+      "ContactNumber": "(850) 420-3143",
+      "EmailAddress": "watson@gmail.com",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/88.jpg",
+          "isMain": true,
+          "description": "Nulla dolore do magna cillum quis veniam fugiat ullamco."
+        }
+      ]
     }
-]
+  ]
