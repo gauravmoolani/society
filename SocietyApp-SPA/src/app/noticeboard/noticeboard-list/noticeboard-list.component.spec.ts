@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NoticeboardComponent } from './noticeboard.component';
+import { NoticeboardListComponent } from './noticeboard-list.component';
 
-describe('NoticeboardComponent', () => {
-  let component: NoticeboardComponent;
-  let fixture: ComponentFixture<NoticeboardComponent>;
+describe('NoticeboardListComponent', () => {
+  let component: NoticeboardListComponent;
+  let fixture: ComponentFixture<NoticeboardListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NoticeboardComponent ]
+      declarations: [ NoticeboardListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NoticeboardComponent);
+    fixture = TestBed.createComponent(NoticeboardListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

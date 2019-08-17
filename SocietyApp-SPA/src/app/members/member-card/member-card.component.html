@@ -1,4 +1,4 @@
-<div class="card mb-4">
+
   <!-- <div class="card-image-wrapper">
     <img
       src="{{ user.photourl }}"
@@ -6,15 +6,42 @@
       class="card-img-top"
     />
   </div> -->
-  <div class="card-body p-1">
-    <h6 class="card-title text-center mb-1">
-      <i class="fa fa-user"></i> {{user.firstname}} {{user.lastname}}
-    </h6>
-    <ul class="list-inline member-icons animate text-center" style="font-size: 14px">
-      <!-- <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-user fa-xs" style="font-size: .75em"></i></button></li> -->
-      <!-- <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope fa-sm"></i></button></li> -->
-    </ul>
-    <p class="card-text text-muted text-center align-center">{{user.flatNo}}</p>
-    <p class="card-text text-muted text-center align-center">{{user.userType}}</p>
-  </div>
-</div>
+  <div class="card bg-light mb-3" style="max-width: 20rem;">
+      <div class="card-header"> <h3 class="card-title text-center mb-1">
+          <i class="fa fa-user"></i
+          ><a [routerLink]="['/members/', user.id]">
+            {{ user.firstname | titlecase }} {{ user.lastname | titlecase }}
+          </a>
+        </h3></div>
+      <div class="card-body">
+          <div class="row">
+              <strong class="col-sm-6 text-right">Flat No.</strong>
+              <p class="col-sm-6 text-left">{{ user?.flatNo }}</p>
+            </div>
+      
+            <div class="row">
+              <strong class="col-sm-6  text-right">UserType</strong>
+              <p class="col-sm-6 align-left ">{{ user?.userType }}</p>
+            </div>
+            <!-- <div class="row">
+              <strong class="col-sm-6  text-right">Vehicles</strong>
+              <p class="col-sm-6 align-left ">{{ user?.userType }}</p>
+            </div> -->
+      </div>
+    </div>
+
+
+    <!-- <ul
+      class="list-inline member-icons animate text-center"
+      style="font-size: 14px" > -->
+    <!-- <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-user fa-xs" style="font-size: .75em"></i></button></li> -->
+    <!-- <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope fa-sm"></i></button></li> -->
+    <!-- </ul> -->
+    <!-- <p class="card-text text-muted text-center align-center">
+      {{ user.flatNo }}
+    </p>
+    <p class="card-text text-muted text-center align-center">
+      {{ user.userType }}
+    </p> -->
+  
+

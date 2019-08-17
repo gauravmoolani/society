@@ -24,6 +24,7 @@ namespace SocietyApp.API.Helpers
             });
             CreateMap<Photo, PhotosForDetailedDto>();
             CreateMap<UserForRegisterDto, User>();
+             CreateMap<UserForUpdateDto, User>();
             CreateMap<SocietyEvent, SocietyEventForListDto>();
             CreateMap<Noticeboard, NoticeboardForListDto>();
         }

@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
@@ -15,9 +17,9 @@ namespace SocietyApp.API.Controllers
     {
         private readonly ISocietyRepository _repo;
 
-        private readonly IMapper _mapper ;
+        private readonly IMapper _mapper;
 
-        public UsersController(ISocietyRepository repo , IMapper mapper)
+        public UsersController(ISocietyRepository repo, IMapper mapper)
         {
             _repo = repo;
             _mapper = mapper;
@@ -36,6 +38,19 @@ namespace SocietyApp.API.Controllers
             var user = await _repo.GetUser(id);
             var userToReturn = _mapper.Map<UserForDetailedDto>(user);
             return Ok(userToReturn);
+
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(int id, UserForUpdateDto userForUpdateDto)
+        {
+            if (id != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
+                return Unauthorized();
+            var userFromRepo = await _repo.GetUser(id);
+            _mapper.Map(userForUpdateDto, userFromRepo);
+            if (await _repo.SaveAll())
+                return NoContent();
+            throw new Exception($"Updating failed for user {id} on save ");
 
         }
     }
