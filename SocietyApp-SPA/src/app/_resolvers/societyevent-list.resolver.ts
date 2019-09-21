@@ -17,6 +17,7 @@ export class SocietyeventListResolver implements Resolve<Societyevent[]> {
             this.router.navigate(['/members']);
             return of(null);
         }));
+
     }
 
 }

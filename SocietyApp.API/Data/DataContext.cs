@@ -11,5 +11,6 @@ namespace SocietyApp.API.Data
         public DbSet<Photo> Photos{get;set;}
         public DbSet<SocietyEvent> SocietyEvents{get;set;}
          public DbSet<Noticeboard> Noticeboards{get;set;}
+         public DbSet<SocietyRule> SocietyRules{get;set;}
     }
 }

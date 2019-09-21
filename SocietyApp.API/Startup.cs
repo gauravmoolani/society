@@ -42,9 +42,10 @@ namespace SocietyApp.API
             services.AddAutoMapper();
             services.AddTransient<Seed>();
             services.AddScoped<IAuthRepository, AuthRepository>();
-             services.AddScoped<INoticeboardRepository, NoticeboardRepository>();
             services.AddScoped<ISocietyRepository, SocietyRepository>();
+            services.AddScoped<INoticeboardRepository, NoticeboardRepository>();            
             services.AddScoped<ISocietyEventRepository, SocietyEventRepository>();
+            services.AddScoped<ISocietyRuleRepository, SocietyRuleRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             {
                 options.TokenValidationParameters = new TokenValidationParameters
@@ -86,6 +87,7 @@ namespace SocietyApp.API
             //seeder.SeedUsers();
             //seeder.SeedEvents();
             // seeder.SeedNoticeboards();
+           // seeder.SeedRules();
             app.UseCors(f => f.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
             app.UseMvc();

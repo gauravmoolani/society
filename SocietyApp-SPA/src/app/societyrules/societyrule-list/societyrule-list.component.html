@@ -1,0 +1,14 @@
+
+
+<div class="container mt-5">
+  <div>
+    <ul  *ngFor="let societyrule of societyrules" class="list-group">
+      
+      <li class="list-group-item d-flex justify-content-between align-items-center" >
+        {{societyrule.title}}    
+        <span class="badge badge-primary badge-pill">Effective from {{societyrule.effectiveFrom | date}}  </span>
+      </li>
+ 
+    </ul>
+  </div>
+</div>

@@ -2,11 +2,12 @@
     <div
       *ngFor="let noticeboard of noticeboards"   >
       <div class="card mb-3" >
+          <div class="card-header"> <p>{{ noticeboard.issueDate | date }}</p> <h1 class="display-5  text-center mb-1">{{ noticeboard.title }}</h1></div>
         <div class="card-body">
-          <h2 class="display-4">{{ noticeboard.title }}</h2>
+           
           <p class="lead">{{ noticeboard.noticeInformation }}</p>
           <hr class="my-4" />        
-          <p>Date {{ noticeboard.issueDate | date }}</p>
+          
         </div>
       </div>
     </div>

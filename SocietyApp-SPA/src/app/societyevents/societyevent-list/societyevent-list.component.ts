@@ -16,6 +16,7 @@ export class SocietyeventListComponent implements OnInit {
 
   ngOnInit() {
     this.route.data.subscribe(data => {
+      // tslint:disable-next-line: no-string-literal
       this.societyevents = data['societyevents'];
     });
     // this.loadSocietyEvents();

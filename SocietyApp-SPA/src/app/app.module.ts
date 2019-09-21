@@ -33,6 +33,9 @@ import { SocietyeventListResolver } from './_resolvers/societyevent-list.resolve
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { MemberEditResolver } from './_resolvers/member-edit.resolver';
 import { PreventUnsavedChanges } from './_gaurds/prevent-unsaved-changes.guard';
+import { SocietyruleListComponent } from './societyrules/societyrule-list/societyrule-list.component';
+import { SocietyruleService } from './_services/societyrule.service';
+import { SocietyruleListResolver } from './_resolvers/societyrule-list.resolver';
 
 
 
@@ -51,7 +54,8 @@ export function tokenGetter() {
     MemberCardComponent,
     SocietyeventListComponent,
     MemberDetailComponent,
-    MemberEditComponent
+    MemberEditComponent,
+    SocietyruleListComponent
   ],
   imports: [
     BrowserModule,
@@ -87,7 +91,9 @@ export function tokenGetter() {
     NoticeboardListResolver,
     SocietyeventListResolver,
     MemberEditResolver,
-    PreventUnsavedChanges
+    PreventUnsavedChanges,
+    SocietyruleService,
+    SocietyruleListResolver
   ],
   bootstrap: [AppComponent]
 })

@@ -13,6 +13,8 @@ import { SocietyeventListResolver } from './_resolvers/societyevent-list.resolve
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { MemberEditResolver } from './_resolvers/member-edit.resolver';
 import { PreventUnsavedChanges } from './_gaurds/prevent-unsaved-changes.guard';
+import { SocietyruleListComponent } from './societyrules/societyrule-list/societyrule-list.component';
+import { SocietyruleListResolver } from './_resolvers/societyrule-list.resolver';
 
 export const appRoutes: Routes = [
     { path: '', component: HomeComponent },
@@ -31,6 +33,7 @@ export const appRoutes: Routes = [
             { path: 'noticeboard', component: NoticeboardListComponent, resolve: { noticeboards: NoticeboardListResolver }},
             { path: 'information', component: InformationComponent },
             { path: 'events', component: SocietyeventListComponent, resolve: { societyevents: SocietyeventListResolver } },
+            { path: 'societyrules', component: SocietyruleListComponent, resolve: { societyrules: SocietyruleListResolver } },
         ]
     },
 

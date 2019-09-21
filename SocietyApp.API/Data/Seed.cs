@@ -42,6 +42,17 @@ namespace SocietyApp.API.Data
             }
             _context.SaveChanges();
         }
+        public void SeedRules()
+        {
+            var eventData = System.IO.File.ReadAllText("Data/SocietyRuleSeedData.json");
+            var societyRules = JsonConvert.DeserializeObject<List<SocietyRule>>(eventData);
+            foreach (var societyRule in societyRules)
+            {
+
+                _context.SocietyRules.Add(societyRule);
+            }
+            _context.SaveChanges();
+        }
         public void SeedNoticeboards()
         {
             var noticeboardData = System.IO.File.ReadAllText("Data/NoticeboardSeedData.json");
